@@ -1,0 +1,10 @@
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\bin\Debug\GuillocheDesigner.exe.config
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\bin\Debug\GuillocheDesigner.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\bin\Debug\GuillocheDesigner.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\bin\Debug\GuillocheDesigner.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\obj\Debug\GuillocheDesigner.Form1.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\obj\Debug\GuillocheDesigner.Resources.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\obj\Debug\Guilloche Designer.vbproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\obj\Debug\GuillocheDesigner.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\obj\Debug\GuillocheDesigner.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\Guilloche Designer\obj\Debug\GuillocheDesigner.pdb

@@ -1,0 +1,59 @@
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ZGControlTest.exe
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ZGControlTest.xml
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ZGControlTest.pdb
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\bin\Release\ZGControlTest.exe
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\bin\Release\ZGControlTest.pdb
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\bin\Release\ZGControlTest.xml
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\bin\Release\Charts.dll
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\bin\Release\ZedGraph.dll
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\bin\Release\Charts.pdb
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ZGControlTest.Form1.resources
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ZGControlTest.Resources.resources
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ResGen.read.1.tlog
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\zedgraph_sample_projects_5.1.2\Visual Basic\ZGControlTest\obj\Release\ResGen.write.1.tlog
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.exe
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.xml
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.pdb
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\bin\Release\ZGControlTest.exe
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\bin\Release\ZGControlTest.pdb
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\bin\Release\ZGControlTest.xml
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\bin\Release\Charts.pdb
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.Form1.resources
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.Resources.resources
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ResGen.read.1.tlog
+C:\Users\hg212d\Documents\Visual Studio 2010\Projects\Guilloche Designer\ZGControlTest\obj\Release\ResGen.write.1.tlog
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\bin\Release\ZGControlTest.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\bin\Release\ZGControlTest.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\bin\Release\ZGControlTest.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\bin\Release\Charts.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\Guilloche Designer.vbprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.Form1.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\ZGControlTest.Resources.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\ZGControlTest\obj\Release\Guilloche Designer.vbproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\bin\Release\GuillocheDesigner.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\bin\Release\GuillocheDesigner.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\bin\Release\GuillocheDesigner.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\GuillocheDesigner.Form1.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\GuillocheDesigner.Resources.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\Guilloche Designer.vbproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\GuillocheDesigner.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\GuillocheDesigner.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\GuillocheDesigner.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\obj\Release\Guilloche Designer.vbprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer - pixel\ZGControlTest\bin\Release\GuillocheDesigner.exe.config
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\bin\Release\GuillocheDesigner.exe.config
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\bin\Release\GuillocheDesigner.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\bin\Release\GuillocheDesigner.pdb
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\bin\Release\GuillocheDesigner.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\Guilloche Designer.vbprojResolveAssemblyReference.cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\GuillocheDesigner.Form1.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\GuillocheDesigner.Resources.resources
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\Guilloche Designer.vbproj.GenerateResource.Cache
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\GuillocheDesigner.exe
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\GuillocheDesigner.xml
+C:\Users\Jacob\Documents\Visual Studio 2012\Projects\Guilloche Designer\Guilloche Designer\obj\Release\GuillocheDesigner.pdb
