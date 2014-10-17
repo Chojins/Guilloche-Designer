@@ -50,7 +50,8 @@ Public Class Form1
         'Dim list3 As New PointPairList
 
         Dim i As Integer, m1x As Double, m1y As Double, m2x As Double, m2y As Double
-
+        Dim xlink As Double
+        Dim ylink As Double
         Dim t As Double = 0
 
         period1 = M1Period.Value
@@ -62,11 +63,13 @@ Public Class Form1
         clength = cLengthTextbox.Value
         radius2 = M2LengthTextbox.Value  'M2 radius
 
+        Dim m1center(,) As Double = New Double(,) {{Convert.ToDouble(M1XTextbox.Text), Convert.ToDouble(M1YTextbox.Text)}}
+        Dim m2center(,) As Double = New Double(,) {{Convert.ToDouble(M2XTextbox.Text), Convert.ToDouble(M2YTextbox.Text)}}
+        Dim m3center(,) As Double = New Double(,) {{Convert.ToDouble(M3XTextbox.Text), Convert.ToDouble(M3YTextbox.Text)}}
+
         If alength > 0 And blength > 0 And clength > 0 And radius2 > 0 Then
             If period1 > 0 And period2 > 0 And period3 > 0 Then
-                Dim m1center(,) As Double = New Double(,) {{Convert.ToDouble(M1XTextbox.Text), Convert.ToDouble(M1YTextbox.Text)}}
-                Dim m2center(,) As Double = New Double(,) {{Convert.ToDouble(M2XTextbox.Text), Convert.ToDouble(M2YTextbox.Text)}}
-                Dim m3center(,) As Double = New Double(,) {{Convert.ToDouble(M3XTextbox.Text), Convert.ToDouble(M3YTextbox.Text)}}
+
 
                 Dim TimeStep As Double = Convert.ToDouble(TStepTextbox.Text)
                 Iterations = Convert.ToDouble(IterationsTextBox.Text)
@@ -102,8 +105,8 @@ Public Class Form1
 
                     Dim Theta4 As Double = 2 * Atan(-Bterm - Sqrt(Bterm ^ 2 - 4 * Aterm * Cterm)) + PI / 4
 
-                    Dim xlink As Double = clength * Cos(Theta4) + m2x
-                    Dim ylink As Double = clength * Sin(Theta4) + m2y
+                    xlink = clength * Cos(Theta4) + m2x
+                    ylink = clength * Sin(Theta4) + m2y
 
                     'list3.Add(xlink, ylink)
 
@@ -178,6 +181,7 @@ Public Class Form1
                     YPointList(c) = ((YPointList(c) + shifty) * Scale) + (PictureBox1.Height / 2)
                 Next
 
+                GFX.SmoothingMode = Drawing2D.SmoothingMode.AntiAlias
                 GFX.FillRectangle(Brushes.White, 0, 0, PictureBox1.Width, PictureBox1.Height)
 
                 Dim XPoint1 As Integer
@@ -212,9 +216,18 @@ Public Class Form1
                         GFX.DrawLine(Pens.Black, XPoint1, YPoint1, XPoint2, YPoint2)
                     Next
 
+                    'check if were showing the link mechanisim and draw on the last point
+                    If ShowLinks.Checked Then
+                        GFX.DrawLine(Pens.Red, CInt(((m1center(0, 0)) + shiftx) * Scale), CInt(((m1center(0, 1)) + shifty) * Scale), CInt((m1x + shiftx) * Scale), CInt((m1y + shifty) * Scale))
+                        GFX.DrawLine(Pens.Red, CInt((m1x + shiftx) * Scale), CInt((m1y + shifty) * Scale), CInt(XPointList(c)), CInt(YPointList(c)))
+
+                        GFX.DrawLine(Pens.Red, CInt((m2x + shiftx) * Scale), CInt((m2y + shifty) * Scale), CInt(XPointList(c)), CInt(YPointList(c)))
+                        GFX.DrawLine(Pens.Red, CInt(((m2center(0, 0)) + shiftx) * Scale), CInt(((m2center(0, 1)) + shifty) * Scale), CInt((m2x + shiftx) * Scale), CInt((m2y + shifty) * Scale))
+                    End If
+
                     PictureBox1.Image = ImagePreview
 
-                End If
+                    End If
             End If
         End If
     End Sub
@@ -522,4 +535,45 @@ Public Class Form1
     End Sub
 
 
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+        Dim SelectedVariable As String
+        SelectedVariable = ListBox1.SelectedItem
+
+        If SelectedVariable = "M1 Period" Then
+            VideoStart.Text = M1Period.Value
+            VideoEnd.Text = M1Period.Value + 20
+        End If
+
+        If SelectedVariable = "M2 Period" Then
+            VideoStart.Text = M2Period.Value
+            VideoEnd.Text = M2Period.Value + 20
+        End If
+
+        If SelectedVariable = "M3 Period" Then
+            VideoStart.Text = M3Period.Value
+            VideoEnd.Text = M3Period.Value + 20
+        End If
+
+        If SelectedVariable = "M1 Rad" Then
+            VideoStart.Text = aLengthTextbox.Value
+            VideoEnd.Text = aLengthTextbox.Value + 20
+        End If
+
+        If SelectedVariable = "Link 1 Length" Then
+            VideoStart.Text = bLengthTextbox.Value
+            VideoEnd.Text = bLengthTextbox.Value + 20
+        End If
+
+        If SelectedVariable = "Link 2 Length" Then
+            VideoStart.Text = cLengthTextbox.Value
+            VideoEnd.Text = cLengthTextbox.Value + 20
+        End If
+
+
+        If SelectedVariable = "M2 Rad" Then
+            VideoStart.Text = M2LengthTextbox.Value
+            VideoEnd.Text = M2LengthTextbox.Value + 20
+        End If
+
+    End Sub
 End Class

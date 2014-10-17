@@ -57,7 +57,6 @@ Partial Class Form1
         Me.M3Period = New System.Windows.Forms.NumericUpDown()
         Me.M2Period = New System.Windows.Forms.NumericUpDown()
         Me.M1Period = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.NCSaveButton = New System.Windows.Forms.Button()
         Me.PageXSize = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
@@ -68,6 +67,9 @@ Partial Class Form1
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.VideoEnd = New System.Windows.Forms.TextBox()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.ShowLinks = New System.Windows.Forms.CheckBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.M2LengthTextbox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cLengthTextbox, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -449,14 +451,6 @@ Partial Class Form1
         Me.M1Period.TabIndex = 43
         Me.M1Period.Value = New Decimal(New Integer() {299, 0, 0, 0})
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(216, 77)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(500, 500)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'NCSaveButton
         '
         Me.NCSaveButton.Location = New System.Drawing.Point(778, 95)
@@ -543,11 +537,40 @@ Partial Class Form1
         Me.VideoEnd.TabIndex = 52
         Me.VideoEnd.Text = "590"
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {"M1 Period", "M2 Period", "M3 Period", "M1 Rad", "Link 1 Length", "Link 2 Length", "M2 Rad"})
+        Me.ListBox1.Location = New System.Drawing.Point(740, 310)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(126, 108)
+        Me.ListBox1.TabIndex = 54
+        '
+        'ShowLinks
+        '
+        Me.ShowLinks.AutoSize = True
+        Me.ShowLinks.Location = New System.Drawing.Point(754, 580)
+        Me.ShowLinks.Name = "ShowLinks"
+        Me.ShowLinks.Size = New System.Drawing.Size(81, 17)
+        Me.ShowLinks.TabIndex = 55
+        Me.ShowLinks.Text = "Show Links"
+        Me.ShowLinks.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(216, 77)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(500, 500)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(916, 701)
+        Me.Controls.Add(Me.ShowLinks)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.VideoEnd)
         Me.Controls.Add(Me.Label21)
@@ -613,7 +636,6 @@ Partial Class Form1
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents PageYSize As System.Windows.Forms.TextBox
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents M1Period As System.Windows.Forms.NumericUpDown
     Friend WithEvents M2Period As System.Windows.Forms.NumericUpDown
     Friend WithEvents M3Period As System.Windows.Forms.NumericUpDown
@@ -626,5 +648,8 @@ Partial Class Form1
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents VideoEnd As System.Windows.Forms.TextBox
+    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
+    Friend WithEvents ShowLinks As System.Windows.Forms.CheckBox
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class
